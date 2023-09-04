@@ -1,6 +1,10 @@
 variable "sample_string" {
   default = "Hello World"
 }
+
+variable "sample_string2" {
+    default = "Pavani"
+}
 ## Shell scripting equivalent sample_string="Hello World"
 
 variable "sample_number" {
