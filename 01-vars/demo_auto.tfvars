@@ -1,1 +1,1 @@
-auto_num1 = "100"
+auto_num1 = 100
