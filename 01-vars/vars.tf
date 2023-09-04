@@ -3,7 +3,7 @@ variable "sample_string" {
 }
 
 variable "sample_string2" {
-    default = "Pavani"
+  default = "terraform"
 }
 ## Shell scripting equivalent sample_string="Hello World"
 
