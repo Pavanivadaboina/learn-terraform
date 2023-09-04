@@ -1,1 +1,1 @@
-sample1 = "200"k
+sample1 = "200"
