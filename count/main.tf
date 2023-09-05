@@ -14,3 +14,15 @@ resource "null_resource" "fruits" {
 variable "fruits" {
   default = ["apple", "banana", "orange"]
 }
+
+variable "choco" {
+  default = ["kitkat", "star", "dairy"]
+}
+
+resource "null_resource" "choco" {
+  count = length(var.choco)
+
+  provisioner "local-exec" {
+    command = "echo Choco Name -  ${var.choco[count.index]}"
+  }
+}
